@@ -1,0 +1,351 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: black;
+	font-size: 10px;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	font-size: 2.5em;
+	font-family: 'Saira Semi Condensed', sans-serif;
+	line-height: 200%;
+	letter-spacing: 3px;
+}
+
+/*------------Parallax Section ONE landing------------*/
+.layer1 {
+	background-image: url("images/sky.jpeg");
+		/*Full resolution: https://static.pexels.com/photos/114990/nature-landscape-night-stars-114990.jpeg*/
+		/*Medium resolution: https://static.pexels.com/photos/559678/pexels-photo-559678.jpeg*/
+	height: 115vh;
+	display: grid;
+	width: 100%;
+}
+
+#title {
+	text-align: center;
+	margin: auto;
+}
+
+#title p {
+	margin-left: 23vw;
+}
+
+/*------------Parallax Section TWO bnw------------*/
+.layer2 {
+	background: url("images/skybw.jpeg");
+		/*Full resolution: https://static.pexels.com/photos/557167/pexels-photo-557167.jpeg*/
+		/*Medium resolution: https://static.pexels.com/photos/559673/pexels-photo-559673.jpeg*/
+	height: 115vh;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin-bottom: 8vh;
+}
+
+#quote {
+	padding-top: 30px;
+	line-height: 130%;
+	font-weight: 300;
+	font-size: 1.3em;
+}
+
+#quote span {
+	margin-left: 23vw;
+}
+
+.layer2:hover .words {
+	visibility: visible;
+	opacity: 0.9;
+}
+
+.layer2 .words {
+	margin-top: 22vh;
+}
+
+/*------------ ** GRID ** ------------*/
+.grid-right {
+	display: grid;
+	grid-template-columns: auto 30vw 34vw auto;
+	grid-template-areas: ". text img .";
+}
+
+.grid-left {
+	display: grid;
+	grid-template-columns: auto 34vw 30vw auto;
+	grid-template-areas: ". img text .";
+}
+
+.img-grid {
+	grid-area: img;
+	height: 50vh;
+	margin-bottom: 8vh;
+	border-radius: 20px;
+}
+
+.text-right {
+	grid-area: text;
+	color: white;
+	align-self: center;
+	text-align: center;
+	margin: 0 auto 8vh auto;
+	padding-left: 1vw;
+}
+
+.text-left {
+	grid-area: text;
+	color: white;
+	align-self: center;
+	text-align: center;
+	margin: 0 auto 8vh auto;
+	padding-right: 1vw;
+}
+
+/*------------Parallax Section THREE tycho------------*/ 
+.layer3 {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/bc/Tycho-Brahe-Mural-Quadrant.jpg");
+	background-size: 66% auto !important;
+}
+
+.layer4 {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/bc/Tycho-Brahe-Mural-Quadrant.jpg");
+	background-size: 66% auto !important;
+}
+
+.layer5 {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/bc/Tycho-Brahe-Mural-Quadrant.jpg");
+	background-size: 66% auto !important;
+	height: 70vh;
+	width: 66%;
+	margin: auto;
+	border-radius: 20px;
+}
+
+/*------------Parallax Section FOUR moon------------*/ 
+.layer6 {
+	background: url("images/moon.jpg");
+		/*Full resolution: https://static.pexels.com/photos/18810/pexels-photo.jpg*/
+		/*Medium resolution: https://static.pexels.com/photos/559668/pexels-photo-559668.jpeg*/
+	background-size: contain !important;
+	height: 105vh;
+	width: 100%;
+	margin-bottom: 18px;
+	position: relative;
+}
+
+.layer6:hover .words {
+	visibility: visible;
+	opacity: 0.9;
+}
+
+.layer6 .words {
+	margin-top: 22vh;
+	width: 35vw;
+	margin-left: 15%;
+}
+
+/*------------Parallax Section FIVE proof------------*/ 
+.layer7 {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Jacques_de_Gheyn_Ii_-_Portrait_of_Tycho_Brahe%2C_astronomer_%28without_a_hat%29_-_Google_Art_Project.jpg");
+	background-size: 37% auto !important;
+	background-position: 74% !important;
+}
+
+.layer8 {
+	background: url("https://www.oldbookillustrations.com/wp-content/high-res/n-d/herschel-1600.jpg");
+	background-size: 37% auto !important;
+	background-position: 26% !important;
+}
+
+/*------------Parallax Section SIX star map------------*/ 
+.layer9 {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/8/8c/Tycho_Cas_SN1572.jpg");
+	background-size: 37% auto !important;
+	background-position: 74% !important;
+}
+
+.layer10 {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/b/b2/Tycho_Brahe%27s_Stjerneborg.jpg");
+	background-size: 37% auto !important;
+	background-position: 26% !important;
+}
+
+#big {
+	margin: 5px auto 60px auto;
+	text-align: center;
+	color: white;
+	line-height: 130%;
+	font-weight: 300;
+	font-size: 1.3em;
+}
+
+/*------------Parallax Section SEVEN revolution------------*/ 
+.layer11 {
+	background: url("images/galaxy.jpg");
+		/*full resolution: https://static.pexels.com/photos/8952/night-trees-milky-way-stars.jpg*/
+		/*Medium resolution: https://static.pexels.com/photos/559676/pexels-photo-559676.jpeg*/
+	height: 140vh;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.layer11:hover .words {
+	visibility: visible;
+	opacity: 0.9;
+}
+
+.layer11 .words {
+	margin-top: 22vh;
+}
+
+/*------------Parallax Section EIGHT end------------*/ 
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#info {
+	display: grid;
+}
+
+.info-grid {
+	justify-self: center;
+}
+
+.links {
+	text-align: center;
+	height: 15vh;
+	width: 30vw;
+	border: 1px solid white;
+	margin: 20px auto 20px auto;
+	transition: background-color .6s;
+}
+
+.links:hover {
+	background-color: rgba(200, 200, 200, 0.2);
+	
+}
+
+#info div h3 {
+	color: white;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	font-size: 0.7em;
+	margin: 0;
+	padding: 35px 0;
+}
+
+footer a {
+	transition: font-size .6s, padding .6s, color 1.8s;
+}
+
+footer:hover a {
+	font-size: 1.3em;
+	padding: 0 8px;
+	color: rgb(64, 132, 239);
+}
+
+/*------------Text appear on scroll------------*/
+.wrap-under {
+	background-color: transparent;
+	min-width: 100%;
+	min-height: 700px;
+}
+
+.words {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .9s, visibility .2s;
+}
+
+/*------------PARALLAX effect class------------*/
+.parallax {
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+/*------------Media Queries------------*/
+
+/*-------medium--------*/
+@media screen and (max-width: 1200px){
+	.container {
+		font-size: 1.9em;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.words {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	#quote {
+		font-weight: 700;
+		padding-left: 5px;
+		padding-right: 5px;
+		text-shadow: 0px 1px rgba(90, 90, 90, .8);
+	}
+
+	.grid-left, .grid-right {
+		grid-template-columns: 100vw;
+		grid-template-areas: 
+			"img"
+			"text";
+	}
+
+	.layer3, .layer5 {
+		display: none;
+	}
+
+	.layer11 {
+		height: 100vh;
+	}
+
+	.layer10, .layer9, .layer8, layer7 {
+		background-size: 65% auto !important;
+	}
+
+	.links {
+		width: 40vw;
+		transition: none;
+	}
+}
+
+/*-------small--------*/
+@media screen and (max-width: 760px){
+	.container {
+		font-size: 1.3em;
+	}
+
+	.layer6 .words {
+	width: 50vw;
+	margin-left: 5%;
+}
+
+	.links {
+		width: 80vw;
+		height: 13vh;
+	}
+}
